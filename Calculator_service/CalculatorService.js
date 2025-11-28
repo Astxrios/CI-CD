@@ -20,7 +20,7 @@ function getOperationName(op) {
         case '-': return 'Subtraction';
         case '*': return 'Multiplication';
         case '/': return 'Division';
-        default: return 'Operation';
+        default: return 'Operation';//a pusjh
     }
 }
 
