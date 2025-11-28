@@ -2,7 +2,7 @@ var http = require('http');
 var request = require('sync-request');
 
 const PORT = 80;
-const service_ip = '2.4.6.79';
+const service_ip = '2.4.6.79'; //bonne ip
 
 // Calculator microservices
 const SUM_SERVICE_IP_PORT = 'http://' + service_ip + ':31001';
